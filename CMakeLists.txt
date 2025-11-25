@@ -12,7 +12,7 @@ project(WebKit LANGUAGES C CXX)
 # -----------------------------------------------------------------------------
 # Common configuration
 #------------------------------------------------------------------------------
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/Source/cmake")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/Source/cmake")
 include(WebKitCommon)
 
 # -----------------------------------------------------------------------------
